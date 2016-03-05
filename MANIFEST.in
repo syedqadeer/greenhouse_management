@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include greenhouse *.css
+recursive-include greenhouse *.csv
+recursive-include greenhouse *.html
+recursive-include greenhouse *.ico
+recursive-include greenhouse *.js
+recursive-include greenhouse *.json
+recursive-include greenhouse *.md
+recursive-include greenhouse *.png
+recursive-include greenhouse *.py
+recursive-include greenhouse *.svg
+recursive-include greenhouse *.txt
+recursive-exclude greenhouse *.pyc
